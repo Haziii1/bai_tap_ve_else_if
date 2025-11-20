@@ -1,12 +1,13 @@
 #include <stdio.h>
-
-// Hàm in l?i chào
-void sayHello() {
-    printf("Xin chào!\n");
+int main()
+{
+	int n,i,sum=0;
+	printf("Nhap so n: ");
+	scanf("%d", &n);
+	
+	for(i=1;i<=n;i++) {
+		sum += i;
+	}
+printf("Tong la: %d", sum);
+return 0;
 }
-
-int main() {
-    sayHello(); // g?i hàm
-    return 0;
-}
-
