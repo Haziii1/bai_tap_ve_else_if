@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include <stdio.h>
 int main()
 {
@@ -23,6 +23,4 @@ int main()
 	printf("Phan tu lon nhat la : %d", max);
 return 0;
 }
-=======
 
->>>>>>> 5152df85c67329135c218ffaa87b714794c11287
